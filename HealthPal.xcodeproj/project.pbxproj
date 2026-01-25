@@ -8,10 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		27CCE1712F2F52E000C73F36 /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 27CCE1702F2F52E000C73F36 /* FSCalendar */; };
+		27CCE1842F2F5E2E00C73F36 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 27CCE1822F2F5E2800C73F36 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		270805F02F13954F00214E99 /* HealthPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27CCE1822F2F5E2800C73F36 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -39,6 +41,7 @@
 			children = (
 				270805F22F13954F00214E99 /* HealthPal */,
 				270805F12F13954F00214E99 /* Products */,
+				27CCE1822F2F5E2800C73F36 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,6 +121,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27CCE1842F2F5E2E00C73F36 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
