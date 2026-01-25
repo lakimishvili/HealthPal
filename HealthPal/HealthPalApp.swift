@@ -9,9 +9,16 @@ import SwiftUI
 
 @main
 struct HealthPalApp: App {
+    init() {
+        if UserDefaults.standard.string(forKey: "authToken") != nil {
+            CurrentUserManager.shared.loadCurrentUser()
+        }
+        FavoritesManager.shared.loadFavorites(userId: UserDefaults.standard.integer(forKey: "userId"))
+    }
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView()
         }
     }
 }
